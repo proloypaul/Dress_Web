@@ -1,10 +1,12 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Header from './Components/Header/Header';
+
 
 function App() {
   return (
     <div>
-      <h1>It's Okay</h1>
+      <Header></Header>
     </div>
   );
 }
