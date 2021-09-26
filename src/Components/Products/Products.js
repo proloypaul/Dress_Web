@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Order from '../OrderDetails/Order';
 import Product from '../Product/Product';
 import './Products.css';
-
+//  products component 
 const Products = () => {
     const [products, setProduct] = useState([])
 
@@ -27,7 +27,6 @@ const Products = () => {
                 }
             </div>
             <div className="product-order">
-                <h3>Order</h3>
                 <Order orderItem={orderItem}></Order>
             </div>
         </div>

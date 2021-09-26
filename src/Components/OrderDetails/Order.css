@@ -1,0 +1,20 @@
+/* style OrderDetails component   */
+.order-container .dress-order{
+    background-color: #101820FF;
+    border: 0;
+    padding: 20px;
+    color:#F2AA4CFF;
+    border-radius: 10px;
+}
+.order-container .dress-order h2, .order-container .dress-order h3{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.order-container .show-dress{
+    background-color: #101820FF;
+    color: #F2AA4CFF;
+    border:0;
+    border-radius: 5px;
+    padding: 0 40px;
+}
