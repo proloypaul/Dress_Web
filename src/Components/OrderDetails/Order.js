@@ -16,7 +16,8 @@ const Order = (props) => {
                 <h2>Total Money: ${totalCoust}</h2>
             </div>
             <div className="show-dress">
-                <h4>{showDress}</h4>
+                <h3>Dress Name</h3>
+                <p>{showDress}</p>
             </div>
         </div>
     );
