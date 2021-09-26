@@ -3,5 +3,7 @@
     grid-template-columns: 3fr 1fr;
 }
 .product{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     margin: auto 40px;
 }
