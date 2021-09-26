@@ -1,6 +1,11 @@
 .product-container{
     border: 4px solid black;
 }
+.product-imges{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .product-container img{
     width: 100px;
     height: 100px;
